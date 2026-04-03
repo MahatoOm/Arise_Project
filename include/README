@@ -35,3 +35,56 @@ Read more about using header files in official GCC documentation:
 * Computed Includes
 
 https://gcc.gnu.org/onlinedocs/cpp/Header-Files.html
+
+
+
+
+TO ADD DEPENDENCY
+platformio.ini
+-- lib_deps
+then run --> pio run
+
+
+esp32cam
+esp32     esp32cam
+vin -- 5v
+gnd -- gnd
+d4 -- gnd
+rx2 -- uor
+tx2 -- uot
+
+
+gas sensor
+esp32 -- mq3
+vin  -- vcc
+gnd -- gnd
+d12 -- d0
+A34 -- a0
+
+Acceleremetor
+Esp32 -- MPU6050
+3v3 -- vcc
+gnd -- gnd
+21 -- sda
+22 -- sga
+
+RGB light
+esp32 -- rgb
+12 - r
+14 - g
+27 - b
+gnd - gnd
+
+
+Buzzer
+esp32 -- buzzer
+5v  -- 5v
+gnd -- gnd
+d2 - switch -- i/0
+
+GPS
+esp32 -- NEO6M
+gnd - gnd
+vcc - vcc
+rx2 - tx
+tx2 - rx

@@ -1,0 +1,33 @@
+#include <Arduino.h>
+
+
+#define PIN_ANALOG_IN 34
+int digitalPin = 12;
+
+int adcVal = 0;
+
+void setup() {
+  Serial.begin(115200);
+  pinMode(digitalPin, INPUT);
+}
+
+void loop() {
+
+  int digitalVal = digitalRead(digitalPin);
+  adcVal = analogRead(PIN_ANALOG_IN);
+
+  int dacVal = map(adcVal, 0, 4095, 0, 255);
+
+  double voltage = adcVal / 4095.0 * 3.3;
+
+  Serial.printf("Digital: %d | ADC: %d | DAC: %d | Voltage: %.2fV\n",
+                 digitalVal, adcVal, dacVal, voltage);
+
+  if (digitalVal == 1) {
+    Serial.println("Normal");
+  } else {
+    Serial.println("Exceeding");
+  }
+
+  delay(100);
+}

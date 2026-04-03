@@ -1,0 +1,56 @@
+<!-- TO Run html file open index.html -->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Dual ESP32-CAM View</title>
+  <style>
+    body {
+      background: #111;
+      color: white;
+      font-family: Arial, sans-serif;
+      text-align: center;
+    }
+    h1 { margin: 20px; }
+    .streams {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+      padding: 20px;
+    }
+    .cam-box {
+      background: #222;
+      border-radius: 10px;
+      padding: 15px;
+    }
+    .cam-box h2 { margin-bottom: 10px; }
+    img {
+      width: 640px;
+      height: 480px;
+      border-radius: 8px;
+      background: #000;
+    }
+  </style>
+</head>
+<body>
+  <h1>📷 Dual ESP32-CAM Monitor</h1>
+  <div class="streams">
+
+    <div class="cam-box">
+      <h2>Camera 1</h2>
+      <!-- Replace with your Camera 1 IP -->
+      <img src="http://192.168.1.42/stream" />
+    </div>
+
+    <div class="cam-box">
+      <h2>Camera 2</h2>
+      <!-- Replace with your Camera 2 IP -->
+      <img src="http://192.168.1.43/stream" />
+    </div>
+
+  </div>
+</body>
+</html>
+
+
+<!-- TO Run html file open index.html -->
