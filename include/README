@@ -44,14 +44,20 @@ platformio.ini
 -- lib_deps
 then run --> pio run
 
+esp32 led
+esp32.  led
+gnd    gnd
+23  resistor R
+22  resistor G
+21  resistor B
 
 esp32cam
 esp32     esp32cam
 vin -- 5v
 gnd -- gnd
 d4 -- gnd
-rx2 -- uor
-tx2 -- uot
+rx2 -- uot
+tx2 -- uor
 
 
 gas sensor
@@ -88,3 +94,11 @@ gnd - gnd
 vcc - vcc
 rx2 - tx
 tx2 - rx
+
+ftdi 
+
+ftdi -- esp32 cam
+gnd -- gnd
+5v - 5v
+rx -tx
+tx -rx
