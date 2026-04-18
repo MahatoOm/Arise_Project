@@ -37,7 +37,7 @@ Read more about using header files in official GCC documentation:
 https://gcc.gnu.org/onlinedocs/cpp/Header-Files.html
 
 
-
+Chip is ESP32-D0WD-V3 
 
 TO ADD DEPENDENCY
 platformio.ini
@@ -65,7 +65,7 @@ esp32 -- mq3
 vin  -- vcc
 gnd -- gnd
 d12 -- d0
-A34 -- a0
+A34 -- a0 cxdszdexx
 
 Acceleremetor
 Esp32 -- MPU6050

@@ -1,0 +1,17 @@
+// #include "esp_camera.h"
+// #include <WiFi.h>
+// #include <WebServer.h>
+
+// WebServer server(80);
+
+// void handleRoot() {
+//   server.send(200, "text/html",
+//               "<html><body><h1>ESP32 Camera</h1><img src='/stream'></body></html>");
+// }
+
+// void startCameraServer() {
+//   server.on("/", handleRoot);
+
+//   server.begin();
+// }
+
