@@ -1,0 +1,1301 @@
+Logs for Rolling Camera before and after accident
+20 images before and after
+ *  Executing task: platformio device monitor 
+
+--- Terminal on /dev/cu.usbserial-A5069RR4 | 115200 8-N-1
+--- Available filters and text transformations: debug, default, direct, esp32_exception_decoder, hexlify, log2file, nocontrol, printable, send_on_enter, time
+--- More details at https://bit.ly/pio-monitor-filters
+--- Quit: Ctrl+C | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H
+ets Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x3 (DOWNLOAD_BOOT(UART0/UART1/SDIO_REI_REO_V2))
+waiting for download
+ets Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13232
+load:0x40080400,len:3028
+entry 0x400805e4
+ESP32-CAM crash recorder starting
+Camera initialized
+SD card size: 60906 MB
+ESP32-CAM ready
+Saved: /buffer_0.jpg
+Saved: /buffer_1.jpg
+Saved: /buffer_2.jpg
+Saved: /buffer_3.jpg
+Saved: /buffer_4.jpg
+Saved: /buffer_5.jpg
+Saved: /buffer_6.jpg
+Saved: /buffer_7.jpg
+Saved: /buffer_8.jpg
+Saved: /buffer_9.jpg
+Saved: /buffer_10.jpg
+Saved: /buffer_11.jpg
+Saved: /buffer_12.jpg
+Saved: /buffer_13.jpg
+Saved: /buffer_14.jpg
+Saved: /buffer_15.jpg
+Saved: /buffer_16.jpg
+Saved: /buffer_17.jpg
+Saved: /buffer_18.jpg
+Saved: /buffer_19.jpg
+Saved: /buffer_0.jpg
+Saved: /buffer_1.jpg
+Saved: /buffer_2.jpg
+Saved: /buffer_3.jpg
+Saved: /buffer_4.jpg
+Saved: /buffer_5.jpg
+Saved: /buffer_6.jpg
+Crash trigger received
+ACCIDENT TRIGGER RECEIVED
+Saving accident event...
+E (28792) sdmmc_cmd: sdmmc_read_sectors_dma: sdmmc_send_cmd returned 0xffffffff
+E (28794) diskio_sdmmc: sdmmc_read_blocks failed (-1)
+E (28799) sdmmc_cmd: sdmmc_read_sectors_dma: sdmmc_send_cmd returned 0xffffffff
+E (28806) diskio_sdmmc: sdmmc_read_blocks failed (-1)
+[ 28827][E][vfs_api.cpp:105] open(): /sdcard/buffer_7.jpg does not exist, no permits for creation
+Missing buffer file: /buffer_7.jpg
+E (28831) sdmmc_cmd: sdmmc_read_sectors_dma: sdmmc_send_cmd returned 0xffffffff
+E (28831) diskio_sdmmc: sdmmc_read_blocks failed (-1)
+E (28834) sdmmc_cmd: sdmmc_read_sectors_dma: sdmmc_send_cmd returned 0xffffffff
+E (28841) diskio_sdmmc: sdmmc_read_blocks failed (-1)
+[ 28863][E][vfs_api.cpp:105] open(): /sdcard/buffer_8.jpg does not exist, no permits for creation
+Missing buffer file: /buffer_8.jpg
+E (28866) sdmmc_cmd: sdmmc_read_sectors_dma: sdmmc_send_cmd returned 0xffffffff
+E (28866) diskio_sdmmc: sdmmc_read_blocks failed (-1)
+E (28870) sdmmc_cmd: sdmmc_read_sectors_dma: sdmmc_send_cmd returned 0xffffffff
+E (28876) diskio_sdmmc: sdmmc_read_blocks failed (-1)
+[ 28898][E][vfs_api.cpp:105] open(): /sdcard/buffer_9.jpg does not exist, no permits for creation
+Missing buffer file: /buffer_9.jpg
+E (28902) sdmmc_cmd: sdmmc_read_sectors_dma: sdmmc_send_cmd returned 0xffffffff
+E (28902) diskio_sdmmc: sdmmc_read_blocks failed (-1)
+E (28905) sdmmc_cmd: sdmmc_read_sectors_dma: sdmmc_send_cmd returned 0xffffffff
+E (28912) diskio_sdmmc: sdmmc_read_blocks failed (-1)
+[ 28933][E][vfs_api.cpp:105] open(): /sdcard/buffer_10.jpg does not exist, no permits for creation
+Missing buffer file: /buffer_10.jpg
+E (28937) sdmmc_cmd: sdmmc_read_sectors_dma: sdmmc_send_cmd returned 0xffffffff
+E (28937) diskio_sdmmc: sdmmc_read_blocks failed (-1)
+E (28941) sdmmc_cmd: sdmmc_read_sectors_dma: sdmmc_send_cmd returned 0xffffffff
+E (28947) diskio_sdmmc: sdmmc_read_blocks failed (-1)
+[ 28969][E][vfs_api.cpp:105] open(): /sdcard/buffer_11.jpg does not exist, no permits for creation
+Missing buffer file: /buffer_11.jpg
+Copied: /accident_28_pre_5.jpg
+Copied: /accident_28_pre_6.jpg
+Copied: /accident_28_pre_7.jpg
+Copied: /accident_28_pre_8.jpg
+Copied: /accident_28_pre_9.jpg
+Copied: /accident_28_pre_10.jpg
+Copied: /accident_28_pre_11.jpg
+Copied: /accident_28_pre_12.jpg
+Copied: /accident_28_pre_13.jpg
+Copied: /accident_28_pre_14.jpg
+Copied: /accident_28_pre_15.jpg
+Copied: /accident_28_pre_16.jpg
+Copied: /accident_28_pre_17.jpg
+Copied: /accident_28_pre_18.jpg
+Copied: /accident_28_pre_19.jpg
+Saved: /accident_28_post_0.jpg
+Saved: /accident_28_post_1.jpg
+Saved: /accident_28_post_2.jpg
+Saved: /accident_28_post_3.jpg
+Saved: /accident_28_post_4.jpg
+Saved: /accident_28_post_5.jpg
+Saved: /accident_28_post_6.jpg
+Saved: /accident_28_post_7.jpg
+Saved: /accident_28_post_8.jpg
+Saved: /accident_28_post_9.jpg
+Saved: /accident_28_post_10.jpg
+Saved: /accident_28_post_11.jpg
+Saved: /accident_28_post_12.jpg
+Saved: /accident_28_post_13.jpg
+Saved: /accident_28_post_14.jpg
+Saved: /accident_28_post_15.jpg
+Saved: /accident_28_post_16.jpg
+Saved: /accident_28_post_17.jpg
+Saved: /accident_28_post_18.jpg
+Saved: /accident_28_post_19.jpg
+Accident event saved.
+
+
+
+-------------------------------------
+
+
+ *  Executing task: platformio device monitor 
+
+--- Terminal on /dev/cu.usbserial-A5069RR4 | 115200 8-N-1
+--- Available filters and text transformations: debug, default, direct, esp32_exception_decoder, hexlify, log2file, nocontrol, printable, send_on_enter, time
+--- More details at https://bit.ly/pio-monitor-filters
+--- Quit: Ctrl+C | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H
+ets Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x3 (DOWNLOAD_BOOT(UART0/UART1/SDIO_REI_REO_V2))
+waiting for download
+ets Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13232
+load:0x40080400,len:3028
+entry 0x400805e4
+ESP32-CAM crash recorder starting
+Camera initialized
+SD card size: 60906 MB
+ESP32-CAM ready
+Saved: /buffer_0.jpg
+Saved: /buffer_1.jpg
+Saved: /buffer_2.jpg
+Saved: /buffer_3.jpg
+Saved: /buffer_4.jpg
+Saved: /buffer_5.jpg
+Saved: /buffer_6.jpg
+Saved: /buffer_7.jpg
+Saved: /buffer_8.jpg
+Saved: /buffer_9.jpg
+Saved: /buffer_0.jpg
+Saved: /buffer_1.jpg
+Saved: /buffer_2.jpg
+Saved: /buffer_3.jpg
+Saved: /buffer_4.jpg
+Saved: /buffer_5.jpg
+Saved: /buffer_6.jpg
+Saved: /buffer_7.jpg
+Saved: /buffer_8.jpg
+Saved: /buffer_9.jpg
+Saved: /buffer_0.jpg
+Saved: /buffer_1.jpg
+Saved: /buffer_2.jpg
+Saved: /buffer_3.jpg
+Saved: /buffer_4.jpg
+Saved: /buffer_5.jpg
+Saved: /buffer_6.jpg
+Saved: /buffer_7.jpg
+Saved: /buffer_8.jpg
+Saved: /buffer_9.jpg
+Saved: /buffer_0.jpg
+Saved: /buffer_1.jpg
+Saved: /buffer_2.jpg
+Saved: /buffer_3.jpg
+Crash trigger received
+ACCIDENT TRIGGER RECEIVED
+Saving accident event...
+E (38123) sdmmc_cmd: sdmmc_read_sectors_dma: sdmmc_send_cmd returned 0xffffffff
+E (38125) diskio_sdmmc: sdmmc_read_blocks failed (-1)
+E (38130) sdmmc_cmd: sdmmc_read_sectors_dma: sdmmc_send_cmd returned 0xffffffff
+E (38137) diskio_sdmmc: sdmmc_read_blocks failed (-1)
+[ 38158][E][vfs_api.cpp:105] open(): /sdcard/buffer_4.jpg does not exist, no permits for creation
+Missing buffer file: /buffer_4.jpg
+E (38162) sdmmc_cmd: sdmmc_read_sectors_dma: sdmmc_send_cmd returned 0xffffffff
+E (38162) diskio_sdmmc: sdmmc_read_blocks failed (-1)
+E (38165) sdmmc_cmd: sdmmc_read_sectors_dma: sdmmc_send_cmd returned 0xffffffff
+E (38172) diskio_sdmmc: sdmmc_read_blocks failed (-1)
+[ 38194][E][vfs_api.cpp:105] open(): /sdcard/buffer_5.jpg does not exist, no permits for creation
+Missing buffer file: /buffer_5.jpg
+E (38197) sdmmc_cmd: sdmmc_read_sectors_dma: sdmmc_send_cmd returned 0xffffffff
+E (38197) diskio_sdmmc: sdmmc_read_blocks failed (-1)
+E (38201) sdmmc_cmd: sdmmc_read_sectors_dma: sdmmc_send_cmd returned 0xffffffff
+E (38207) diskio_sdmmc: sdmmc_read_blocks failed (-1)
+[ 38229][E][vfs_api.cpp:105] open(): /sdcard/buffer_6.jpg does not exist, no permits for creation
+Missing buffer file: /buffer_6.jpg
+E (38233) sdmmc_cmd: sdmmc_read_sectors_dma: sdmmc_send_cmd returned 0xffffffff
+E (38233) diskio_sdmmc: sdmmc_read_blocks failed (-1)
+E (38236) sdmmc_cmd: sdmmc_read_sectors_dma: sdmmc_send_cmd returned 0xffffffff
+E (38243) diskio_sdmmc: sdmmc_read_blocks failed (-1)
+[ 38264][E][vfs_api.cpp:105] open(): /sdcard/buffer_7.jpg does not exist, no permits for creation
+Missing buffer file: /buffer_7.jpg
+E (38268) sdmmc_cmd: sdmmc_read_sectors_dma: sdmmc_send_cmd returned 0xffffffff
+E (38268) diskio_sdmmc: sdmmc_read_blocks failed (-1)
+E (38272) sdmmc_cmd: sdmmc_read_sectors_dma: sdmmc_send_cmd returned 0xffffffff
+E (38278) diskio_sdmmc: sdmmc_read_blocks failed (-1)
+[ 38300][E][vfs_api.cpp:105] open(): /sdcard/buffer_8.jpg does not exist, no permits for creation
+Missing buffer file: /buffer_8.jpg
+Copied: /accident_38_pre_5.jpg
+Copied: /accident_38_pre_6.jpg
+Copied: /accident_38_pre_7.jpg
+Copied: /accident_38_pre_8.jpg
+Copied: /accident_38_pre_9.jpg
+Saved: /accident_38_post_0.jpg
+Saved: /accident_38_post_1.jpg
+Saved: /accident_38_post_2.jpg
+Saved: /accident_38_post_3.jpg
+Saved: /accident_38_post_4.jpg
+Saved: /accident_38_post_5.jpg
+Saved: /accident_38_post_6.jpg
+Saved: /accident_38_post_7.jpg
+Saved: /accident_38_post_8.jpg
+Saved: /accident_38_post_9.jpg
+Saved: /accident_38_post_10.jpg
+Saved: /accident_38_post_11.jpg
+Saved: /accident_38_post_12.jpg
+Saved: /accident_38_post_13.jpg
+Saved: /accident_38_post_14.jpg
+Accident event saved.
+
+
+
+
+
+
+
+
+
+
+
+
+
+ESP32-CAM ready
+ 60906 MB
+ESP32-CAM ready
+ 60906 MB
+ESP32-CAM ready
+ 60906 MB
+ESP32-CAM ready
+ 60906 MB
+ESP32-CAM ready
+ 60906 MB
+ESP32-CAM ready
+ 60906 MB
+ESP32-CAM ready
+ 60906 MB
+ESP32-CAM ready
+ 60906 MB
+ESP32-CAM ready
+ 60906 MB
+ESP32-CAM ready
+ 60906 MB
+ESP32-CAM ready
+ 60906 MB
+ESP32-CAM ready
+ 60906 MB
+ESP32-CAM ready
+ 60906 MB
+ESP32-CAM ready
+ 60906 MB
+ESP32-CAM ready
+ 60906 MB
+ESP32-CAM ready
+ 60906 MB
+ESP32-CAM ready
+ 60906 MB
+ESP32-CAM ready
+ 60906 MB
+ESP32-CAM ready
+ 60906 MB
+ESP32-CAM ready
+ 60906 MB
+ESP32-CAM ready
+ 60906 MB
+ESP32-CAM ready
+ 60906 MB
+ESP32-CAM ready
+ 60906 MB
+ESP32-CAM ready
+ 60906 MB
+ESP32-CAM ready
+ 60906 MB
+ESP32-CAM ready
+ 60906 MB
+ESP32-CAM ready
+ 60906 MB
+ESP32-CAM ready
+ 60906 MB
+ESP32-CAM ready
+ 60906 MB
+ESP32-CAM ready
+ 60906 MB
+ESP32-CAM ready
+ 60906 MB
+ESP32-CAM ready
+ 60906 MB
+ESP32-CAM ready
+ 60906 MB
+ESP32-CAM ready
+ 60906 MB
+ESP32-CAM ready
+ 60906 MB
+ESP32-CAM ready
+ 60906 MB
+ESP32-CAM ready
+ 60906 MB
+ESP32-CAM ready
+ 60906 MB
+ESP32-CAM ready
+ 60906 MB
+ESP32-CAM ready
+ 60906 MB
+ESP32-CAM ready
+ 60906 MB
+ESP32-CAM ready
+ 60906 MB
+ESP32-CAM ready
+ 60906 MB
+ESP32-CAM ready
+ 60906 MB
+ESP32-CAM ready
+ 60906 MB
+ESP32-CAM ready
+ 60906 MB
+ESP32-CAM ready
+ 60906 MB
+ESP32-CAM ready
+ 60906 MB
+ESP32-CAM ready
+ 60906 MB
+ESP32-CAM ready
+ 60906 MB
+ESP32-CAM ready
+ 60906 MB
+ESP32-CAM ready
+ 60906 MB
+ESP32-CAM ready
+ 60906 MB
+ESP32-CAM ready
+ 60906 MB
+ESP32-CAM ready
+ 60906 MB
+ESP32-CAM ready
+ 60906 MB
+ESP32-CAM ready
+ 60906 MB
+ESP32-CAM ready
+ 60906 MB
+ESP32-CAM ready
+ 60906 MB
+ESP32-CAM ready
+ 60906 MB
+ESP32-CAM ready
+ 60906 MB
+ESP32-CAM ready
+ 60906 MB
+ESP32-CAM ready
+ 60906 MB
+ESP32-CAM ready
+ 60906 MB
+ESP32-CAM ready
+ 60906 MB
+ESP32-CAM ready
+ 60906 MB
+ESP32-CAM ready
+ 60906 MB
+ESP32-CAM ready
+ 60906 MB
+ESP32-CAM ready
+ 60906 MB
+ESP32-CAM ready
+ 60906 MB
+ESP32-CAM ready
+ 60906 MB
+ESP32-CAM ready
+ 60906 MB
+ESP32-CAM ready
+ 60906 MB
+ESP32-CAM ready
+ 60906 MB
+ESP32-CAM ready
+ 60906 MB
+ESP32-CAM ready
+ 60906 MB
+ESP32-CAM ready
+ 60906 MB
+ESP32-CAM ready
+ 60906 MB
+ESP32-CAM ready
+ 60906 MB
+ESP32-CAM ready
+ 60906 MB
+ESP32-CAM ready
+ 60906 MB
+ESP32-CAM ready
+ 60906 MB
+ESP32-CAM ready
+ 60906 MB
+ESP32-CAM ready
+ 60906 MB
+ESP32-CAM ready
+ 60906 MB
+ESP32-CAM ready
+ 60906 MB
+ESP32-CAM ready
+ 60906 MB
+ESP32-CAM ready
+ 60906 MB
+ESP32-CAM ready
+ 60906 MB
+ESP32-CAM ready
+ 60906 MB
+ESP32-CAM ready
+ 60906 MB
+ESP32-CAM ready
+ 60906 MB
+ESP32-CAM ready
+ 60906 MB
+ESP32-CAM ready
+ 60906 MB
+ESP32-CAM ready
+ 60906 MB
+ESP32-CAM ready
+ 60906 MB
+ESP32-CAM ready
+ 60906 MB
+ESP32-CAM ready
+ 60906 MB
+ESP32-CAM ready
+ 60906 MB
+ESP32-CAM ready
+ 60906 MB
+ESP32-CAM ready
+ 60906 MB
+ESP32-CAM ready
+ 60906 MB
+ESP32-CAM ready
+ 60906 MB
+ESP32-CAM ready
+ 60906 MB
+ESP32-CAM ready
+ 60906 MB
+ESP32-CAM ready
+ 60906 MB
+ESP32-CAM ready
+ 60906 MB
+ESP32-CAM ready
+ 60906 MB
+ESP32-CAM ready
+ 60906 MB
+ESP32-CAM ready
+ 60906 MB
+ESP32-CAM ready
+ 60906 MB
+ESP32-CAM ready
+ 60906 MB
+ESP32-CAM ready
+ 60906 MB
+ESP32-CAM ready
+ 60906 MB
+ESP32-CAM ready
+ 60906 MB
+ESP32-CAM ready
+ 60906 MB
+ESP32-CAM ready
+ 60906 MB
+ESP32-CAM ready
+ 60906 MB
+ESP32-CAM ready
+ 60906 MB
+ESP32-CAM ready
+ 60906 MB
+ESP32-CAM ready
+ 60906 MB
+ESP32-CAM ready
+ 60906 MB
+ESP32-CAM ready
+ 60906 MB
+ESP32-CAM ready
+ 60906 MB
+ESP32-CAM ready
+ 60906 MB
+ESP32-CAM ready
+ 60906 MB
+ESP32-CAM ready
+ 60906 MB
+ESP32-CAM ready
+ 60906 MB
+ESP32-CAM ready
+ 60906 MB
+ESP32-CAM ready
+ 60906 MB
+ESP32-CAM ready
+ 60906 MB
+ESP32-CAM ready
+ 60906 MB
+ESP32-CAM ready
+ 60906 MB
+ESP32-CAM ready
+ 60906 MB
+ESP32-CAM ready
+ 60906 MB
+ESP32-CAM ready
+ 60906 MB
+ESP32-CAM ready
+ 60906 MB
+ESP32-CAM ready
+ 60906 MB
+ESP32-CAM ready
+ 60906 MB
+ESP32-CAM ready
+ 60906 MB
+ESP32-CAM ready
+ 60906 MB
+ESP32-CAM ready
+ 60906 MB
+ESP32-CAM ready
+ 60906 MB
+ESP32-CAM ready
+ 60906 MB
+ESP32-CAM ready
+ 60906 MB
+ESP32-CAM ready
+ 60906 MB
+ESP32-CAM ready
+ 60906 MB
+ESP32-CAM ready
+ 60906 MB
+ESP32-CAM ready
+ 60906 MB
+ESP32-CAM ready
+ 60906 MB
+ESP32-CAM ready
+ 60906 MB
+ESP32-CAM ready
+ 60906 MB
+ESP32-CAM ready
+ 60906 MB
+ESP32-CAM ready
+ 60906 MB
+ESP32-CAM ready
+ 60906 MB
+ESP32-CAM ready
+ 60906 MB
+ESP32-CAM ready
+ 60906 MB
+ESP32-CAM ready
+ 60906 MB
+ESP32-CAM ready
+ 60906 MB
+ESP32-CAM ready
+ 60906 MB
+ESP32-CAM ready
+ 60906 MB
+ESP32-CAM ready
+ 60906 MB
+ESP32-CAM ready
+ 60906 MB
+ESP32-CAM ready
+ 60906 MB
+ESP32-CAM ready
+ 60906 MB
+ESP32-CAM ready
+ 60906 MB
+ESP32-CAM ready
+ 60906 MB
+ESP32-CAM ready
+ 60906 MB
+ESP32-CAM ready
+ 60906 MB
+ESP32-CAM ready
+ 60906 MB
+ESP32-CAM ready
+ 60906 MB
+ESP32-CAM ready
+ets Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13232
+load:0x40080400,len:3028
+entry 0x400805e4
+ESP32-CAM crash recorder starting
+Camera initialized
+SD card size: 60906 MB
+ESP32-CAM ready
+Crash trigger received
+Saving crash event
+E (7437) sdmmc_cmd: sdmmc_read_sectors_dma: sdmmc_send_cmd returned 0xffffffff
+E (7437) diskio_sdmmc: sdmmc_read_blocks failed (-1)
+E (7441) sdmmc_cmd: sdmmc_read_sectors_dma: sdmmc_send_cmd returned 0xffffffff
+E (7447) diskio_sdmmc: sdmmc_read_blocks failed (-1)
+E (7453) sdmmc_cmd: sdmmc_read_sectors_dma: sdmmc_send_cmd returned 0xffffffff
+E (7459) diskio_sdmmc: sdmmc_read_blocks failed (-1)
+E (7464) sdmmc_cmd: sdmmc_read_sectors_dma: sdmmc_send_cmd returned 0xffffffff
+E (7471) diskio_sdmmc: sdmmc_read_blocks failed (-1)
+E (7476) sdmmc_cmd: sdmmc_read_sectors_dma: sdmmc_send_cmd returned 0xffffffff
+E (7482) diskio_sdmmc: sdmmc_read_blocks failed (-1)
+Failed to create event folder
+Event folder: /event_0
+E (7498) sdmmc_cmd: sdmmc_read_sectors_dma: sdmmc_send_cmd returned 0xffffffff
+E (7499) diskio_sdmmc: sdmmc_read_blocks failed (-1)
+E (7504) sdmmc_cmd: sdmmc_read_sectors_dma: sdmmc_send_cmd returned 0xffffffff
+E (7510) diskio_sdmmc: sdmmc_read_blocks failed (-1)
+E (7516) sdmmc_cmd: sdmmc_read_sectors_dma: sdmmc_send_cmd returned 0xffffffff
+E (7522) diskio_sdmmc: sdmmc_read_blocks failed (-1)
+E (7527) sdmmc_cmd: sdmmc_read_sectors_dma: sdmmc_send_cmd returned 0xffffffff
+E (7534) diskio_sdmmc: sdmmc_read_blocks failed (-1)
+[  7543][E][vfs_api.cpp:332] VFSFileImpl(): fopen(/sdcard/event_0/pre_0.jpg) failed
+Failed to open file: /event_0/pre_0.jpg
+Failed /event_0/pre_0.jpg
+E (7558) sdmmc_cmd: sdmmc_read_sectors_dma: sdmmc_send_cmd returned 0xffffffff
+E (7559) diskio_sdmmc: sdmmc_read_blocks failed (-1)
+E (7564) sdmmc_cmd: sdmmc_read_sectors_dma: sdmmc_send_cmd returned 0xffffffff
+E (7570) diskio_sdmmc: sdmmc_read_blocks failed (-1)
+E (7576) sdmmc_cmd: sdmmc_read_sectors_dma: sdmmc_send_cmd returned 0xffffffff
+E (7582) diskio_sdmmc: sdmmc_read_blocks failed (-1)
+E (8587) sdmmc_req: sdmmc_host_wait_for_event returned 0x107
+E (8587) sdmmc_cmd: sdmmc_read_sectors_dma: sdmmc_send_cmd returned 0x107
+E (8588) diskio_sdmmc: sdmmc_read_blocks failed (263)
+[  8598][E][vfs_api.cpp:332] VFSFileImpl(): fopen(/sdcard/event_0/pre_1.jpg) failed
+Failed to open file: /event_0/pre_1.jpg
+Failed /event_0/pre_1.jpg
+Saved /event_0/pre_2.jpg
+Saved /event_0/pre_3.jpg
+Saved /event_0/pre_4.jpg
+Saved /event_0/pre_5.jpg
+Saved /event_0/pre_6.jpg
+Saved /event_0/pre_7.jpg
+Saved /event_0/pre_8.jpg
+Saved /event_0/pre_9.jpg
+Saved /event_0/post_0.jpg
+Saved /event_0/post_1.jpg
+Saved /event_0/post_2.jpg
+Saved /event_0/post_3.jpg
+Saved /event_0/post_4.jpg
+Saved /event_0/post_5.jpg
+Saved /event_0/post_6.jpg
+Saved /event_0/post_7.jpg
+Saved /event_0/post_8.jpg
+Saved /event_0/post_9.jpg
+Saved /event_0/post_10.jpg
+Saved /event_0/post_11.jpg
+Saved /event_0/post_12.jpg
+Saved /event_0/post_13.jpg
+Saved /event_0/post_14.jpg
+Saved /event_0/post_15.jpg
+Saved /event_0/post_16.jpg
+Saved /event_0/post_17.jpg
+Saved /event_0/post_18.jpg
+Saved /event_0/post_19.jpg
+Crash event saved
+Crash trigger received
+Saving crash event
+E (36148) sdmmc_cmd: sdmmc_read_sectors_dma: sdmmc_send_cmd returned 0xffffffff
+E (36148) diskio_sdmmc: sdmmc_read_blocks failed (-1)
+E (36152) sdmmc_cmd: sdmmc_read_sectors_dma: sdmmc_send_cmd returned 0xffffffff
+E (36159) diskio_sdmmc: sdmmc_read_blocks failed (-1)
+E (36164) sdmmc_cmd: sdmmc_read_sectors_dma: sdmmc_send_cmd returned 0xffffffff
+E (36171) diskio_sdmmc: sdmmc_read_blocks failed (-1)
+E (36176) sdmmc_cmd: sdmmc_read_sectors_dma: sdmmc_send_cmd returned 0xffffffff
+E (36182) diskio_sdmmc: sdmmc_read_blocks failed (-1)
+E (36188) sdmmc_cmd: sdmmc_read_sectors_dma: sdmmc_send_cmd returned 0xffffffff
+E (36194) diskio_sdmmc: sdmmc_read_blocks failed (-1)
+Failed to create event folder
+Event folder: /event_1
+E (36210) sdmmc_cmd: sdmmc_read_sectors_dma: sdmmc_send_cmd returned 0xffffffff
+E (36211) diskio_sdmmc: sdmmc_read_blocks failed (-1)
+E (36216) sdmmc_cmd: sdmmc_read_sectors_dma: sdmmc_send_cmd returned 0xffffffff
+E (36223) diskio_sdmmc: sdmmc_read_blocks failed (-1)
+E (36228) sdmmc_cmd: sdmmc_read_sectors_dma: sdmmc_send_cmd returned 0xffffffff
+E (36234) diskio_sdmmc: sdmmc_read_blocks failed (-1)
+E (36240) sdmmc_cmd: sdmmc_read_sectors_dma: sdmmc_send_cmd returned 0xffffffff
+E (36246) diskio_sdmmc: sdmmc_read_blocks failed (-1)
+[ 36256][E][vfs_api.cpp:332] VFSFileImpl(): fopen(/sdcard/event_1/pre_0.jpg) failed
+Failed to open file: /event_1/pre_0.jpg
+Failed /event_1/pre_0.jpg
+E (36270) sdmmc_cmd: sdmmc_read_sectors_dma: sdmmc_send_cmd returned 0xffffffff
+E (36271) diskio_sdmmc: sdmmc_read_blocks failed (-1)
+E (36276) sdmmc_cmd: sdmmc_read_sectors_dma: sdmmc_send_cmd returned 0xffffffff
+E (36283) diskio_sdmmc: sdmmc_read_blocks failed (-1)
+E (36288) sdmmc_cmd: sdmmc_read_sectors_dma: sdmmc_send_cmd returned 0xffffffff
+E (36295) diskio_sdmmc: sdmmc_read_blocks failed (-1)
+E (36300) sdmmc_cmd: sdmmc_read_sectors_dma: sdmmc_send_cmd returned 0xffffffff
+E (36307) diskio_sdmmc: sdmmc_read_blocks failed (-1)
+[ 36316][E][vfs_api.cpp:332] VFSFileImpl(): fopen(/sdcard/event_1/pre_1.jpg) failed
+Failed to open file: /event_1/pre_1.jpg
+Failed /event_1/pre_1.jpg
+E (36331) sdmmc_cmd: sdmmc_read_sectors_dma: sdmmc_send_cmd returned 0xffffffff
+E (36332) diskio_sdmmc: sdmmc_read_blocks failed (-1)
+E (36337) sdmmc_cmd: sdmmc_read_sectors_dma: sdmmc_send_cmd returned 0xffffffff
+E (36344) diskio_sdmmc: sdmmc_read_blocks failed (-1)
+E (36349) sdmmc_cmd: sdmmc_read_sectors_dma: sdmmc_send_cmd returned 0xffffffff
+E (36356) diskio_sdmmc: sdmmc_read_blocks failed (-1)
+Saved /event_1/pre_2.jpg
+Saved /event_1/pre_3.jpg
+Saved /event_1/pre_4.jpg
+Saved /event_1/pre_5.jpg
+Saved /event_1/pre_6.jpg
+Saved /event_1/pre_7.jpg
+Saved /event_1/pre_8.jpg
+Saved /event_1/pre_9.jpg
+Saved /event_1/post_0.jpg
+Saved /event_1/post_1.jpg
+Saved /event_1/post_2.jpg
+Saved /event_1/post_3.jpg
+Saved /event_1/post_4.jpg
+Saved /event_1/post_5.jpg
+Saved /event_1/post_6.jpg
+Saved /event_1/post_7.jpg
+Saved /event_1/post_8.jpg
+Saved /event_1/post_9.jpg
+Saved /event_1/post_10.jpg
+Saved /event_1/post_11.jpg
+Saved /event_1/post_12.jpg
+Saved /event_1/post_13.jpg
+Saved /event_1/post_14.jpg
+Saved /event_1/post_15.jpg
+Saved /event_1/post_16.jpg
+Saved /event_1/post_17.jpg
+Saved /event_1/post_18.jpg
+Saved /event_1/post_19.jpg
+Crash event saved
+Crash trigger received
+Saving crash event
+E (54461) sdmmc_cmd: sdmmc_read_sectors_dma: sdmmc_send_cmd returned 0xffffffff
+E (54461) diskio_sdmmc: sdmmc_read_blocks failed (-1)
+E (54465) sdmmc_cmd: sdmmc_read_sectors_dma: sdmmc_send_cmd returned 0xffffffff
+E (54472) diskio_sdmmc: sdmmc_read_blocks failed (-1)
+E (54477) sdmmc_cmd: sdmmc_read_sectors_dma: sdmmc_send_cmd returned 0xffffffff
+E (54484) diskio_sdmmc: sdmmc_read_blocks failed (-1)
+E (54489) sdmmc_cmd: sdmmc_read_sectors_dma: sdmmc_send_cmd returned 0xffffffff
+E (54495) diskio_sdmmc: sdmmc_read_blocks failed (-1)
+E (54501) sdmmc_cmd: sdmmc_read_sectors_dma: sdmmc_send_cmd returned 0xffffffff
+E (54507) diskio_sdmmc: sdmmc_read_blocks failed (-1)
+Failed to create event folder
+Event folder: /event_2
+E (54523) sdmmc_cmd: sdmmc_read_sectors_dma: sdmmc_send_cmd returned 0xffffffff
+E (54524) diskio_sdmmc: sdmmc_read_blocks failed (-1)
+E (54529) sdmmc_cmd: sdmmc_read_sectors_dma: sdmmc_send_cmd returned 0xffffffff
+E (54536) diskio_sdmmc: sdmmc_read_blocks failed (-1)
+E (54541) sdmmc_cmd: sdmmc_read_sectors_dma: sdmmc_send_cmd returned 0xffffffff
+E (54547) diskio_sdmmc: sdmmc_read_blocks failed (-1)
+E (54553) sdmmc_cmd: sdmmc_read_sectors_dma: sdmmc_send_cmd returned 0xffffffff
+E (54559) diskio_sdmmc: sdmmc_read_blocks failed (-1)
+[ 54569][E][vfs_api.cpp:332] VFSFileImpl(): fopen(/sdcard/event_2/pre_0.jpg) failed
+Failed to open file: /event_2/pre_0.jpg
+Failed /event_2/pre_0.jpg
+E (54583) sdmmc_cmd: sdmmc_read_sectors_dma: sdmmc_send_cmd returned 0xffffffff
+E (54584) diskio_sdmmc: sdmmc_read_blocks failed (-1)
+E (54589) sdmmc_cmd: sdmmc_read_sectors_dma: sdmmc_send_cmd returned 0xffffffff
+E (54596) diskio_sdmmc: sdmmc_read_blocks failed (-1)
+E (54601) sdmmc_cmd: sdmmc_read_sectors_dma: sdmmc_send_cmd returned 0xffffffff
+E (54608) diskio_sdmmc: sdmmc_read_blocks failed (-1)
+E (54613) sdmmc_cmd: sdmmc_read_sectors_dma: sdmmc_send_cmd returned 0xffffffff
+E (54620) diskio_sdmmc: sdmmc_read_blocks failed (-1)
+[ 54629][E][vfs_api.cpp:332] VFSFileImpl(): fopen(/sdcard/event_2/pre_1.jpg) failed
+Failed to open file: /event_2/pre_1.jpg
+Failed /event_2/pre_1.jpg
+E (54644) sdmmc_cmd: sdmmc_read_sectors_dma: sdmmc_send_cmd returned 0xffffffff
+E (54645) diskio_sdmmc: sdmmc_read_blocks failed (-1)
+E (54650) sdmmc_cmd: sdmmc_read_sectors_dma: sdmmc_send_cmd returned 0xffffffff
+E (54657) diskio_sdmmc: sdmmc_read_blocks failed (-1)
+E (54662) sdmmc_cmd: sdmmc_read_sectors_dma: sdmmc_send_cmd returned 0xffffffff
+E (54669) diskio_sdmmc: sdmmc_read_blocks failed (-1)
+E (54674) sdmmc_cmd: sdmmc_read_sectors_dma: sdmmc_send_cmd returned 0xffffffff
+E (54680) diskio_sdmmc: sdmmc_read_blocks failed (-1)
+[ 54690][E][vfs_api.cpp:332] VFSFileImpl(): fopen(/sdcard/event_2/pre_2.jpg) failed
+Failed to open file: /event_2/pre_2.jpg
+Failed /event_2/pre_2.jpg
+E (54704) sdmmc_cmd: sdmmc_read_sectors_dma: sdmmc_send_cmd returned 0xffffffff
+E (54706) diskio_sdmmc: sdmmc_read_blocks failed (-1)
+E (54711) sdmmc_cmd: sdmmc_read_sectors_dma: sdmmc_send_cmd returned 0xffffffff
+E (54717) diskio_sdmmc: sdmmc_read_blocks failed (-1)
+E (54723) sdmmc_cmd: sdmmc_read_sectors_dma: sdmmc_send_cmd returned 0xffffffff
+E (54729) diskio_sdmmc: sdmmc_read_blocks failed (-1)
+E (54734) sdmmc_cmd: sdmmc_read_sectors_dma: sdmmc_send_cmd returned 0xffffffff
+E (54741) diskio_sdmmc: sdmmc_read_blocks failed (-1)
+[ 54750][E][vfs_api.cpp:332] VFSFileImpl(): fopen(/sdcard/event_2/pre_3.jpg) failed
+Failed to open file: /event_2/pre_3.jpg
+Failed /event_2/pre_3.jpg
+E (54765) sdmmc_cmd: sdmmc_read_sectors_dma: sdmmc_send_cmd returned 0xffffffff
+E (54766) diskio_sdmmc: sdmmc_read_blocks failed (-1)
+E (54771) sdmmc_cmd: sdmmc_read_sectors_dma: sdmmc_send_cmd returned 0xffffffff
+E (54778) diskio_sdmmc: sdmmc_read_blocks failed (-1)
+E (54783) sdmmc_cmd: sdmmc_read_sectors_dma: sdmmc_send_cmd returned 0xffffffff
+E (54790) diskio_sdmmc: sdmmc_read_blocks failed (-1)
+E (54795) sdmmc_cmd: sdmmc_read_sectors_dma: sdmmc_send_cmd returned 0xffffffff
+E (54802) diskio_sdmmc: sdmmc_read_blocks failed (-1)
+[ 54811][E][vfs_api.cpp:332] VFSFileImpl(): fopen(/sdcard/event_2/pre_4.jpg) failed
+Failed to open file: /event_2/pre_4.jpg
+Failed /event_2/pre_4.jpg
+E (54826) sdmmc_cmd: sdmmc_read_sectors_dma: sdmmc_send_cmd returned 0xffffffff
+E (54827) diskio_sdmmc: sdmmc_read_blocks failed (-1)
+E (54832) sdmmc_cmd: sdmmc_read_sectors_dma: sdmmc_send_cmd returned 0xffffffff
+E (54839) diskio_sdmmc: sdmmc_read_blocks failed (-1)
+E (54844) sdmmc_cmd: sdmmc_read_sectors_dma: sdmmc_send_cmd returned 0xffffffff
+E (54850) diskio_sdmmc: sdmmc_read_blocks failed (-1)
+E (54856) sdmmc_cmd: sdmmc_read_sectors_dma: sdmmc_send_cmd returned 0xffffffff
+E (54862) diskio_sdmmc: sdmmc_read_blocks failed (-1)
+[ 54872][E][vfs_api.cpp:332] VFSFileImpl(): fopen(/sdcard/event_2/pre_5.jpg) failed
+Failed to open file: /event_2/pre_5.jpg
+Failed /event_2/pre_5.jpg
+E (54886) sdmmc_cmd: sdmmc_read_sectors_dma: sdmmc_send_cmd returned 0xffffffff
+E (54887) diskio_sdmmc: sdmmc_read_blocks failed (-1)
+E (54892) sdmmc_cmd: sdmmc_read_sectors_dma: sdmmc_send_cmd returned 0xffffffff
+E (54899) diskio_sdmmc: sdmmc_read_blocks failed (-1)
+E (54904) sdmmc_cmd: sdmmc_read_sectors_dma: sdmmc_send_cmd returned 0xffffffff
+E (54911) diskio_sdmmc: sdmmc_read_blocks failed (-1)
+Saved /event_2/pre_6.jpg
+Saved /event_2/pre_7.jpg
+Saved /event_2/pre_8.jpg
+Saved /event_2/pre_9.jpg
+Saved /event_2/post_0.jpg
+Saved /event_2/post_1.jpg
+Saved /event_2/post_2.jpg
+Saved /event_2/post_3.jpg
+Saved /event_2/post_4.jpg
+Saved /event_2/post_5.jpg
+Saved /event_2/post_6.jpg
+Saved /event_2/post_7.jpg
+Saved /event_2/post_8.jpg
+Saved /event_2/post_9.jpg
+Saved /event_2/post_10.jpg
+Saved /event_2/post_11.jpg
+Saved /event_2/post_12.jpg
+Saved /event_2/post_13.jpg
+Saved /event_2/post_14.jpg
+Saved /event_2/post_15.jpg
+Crash event saved
+Crash trigger received
+Saving crash event
+E (68095) sdmmc_cmd: sdmmc_read_sectors_dma: sdmmc_send_cmd returned 0xffffffff
+E (68095) diskio_sdmmc: sdmmc_read_blocks failed (-1)
+E (68099) sdmmc_cmd: sdmmc_read_sectors_dma: sdmmc_send_cmd returned 0xffffffff
+E (68106) diskio_sdmmc: sdmmc_read_blocks failed (-1)
+E (68111) sdmmc_cmd: sdmmc_read_sectors_dma: sdmmc_send_cmd returned 0xffffffff
+E (68118) diskio_sdmmc: sdmmc_read_blocks failed (-1)
+E (68123) sdmmc_cmd: sdmmc_read_sectors_dma: sdmmc_send_cmd returned 0xffffffff
+E (68129) diskio_sdmmc: sdmmc_read_blocks failed (-1)
+E (68135) sdmmc_cmd: sdmmc_read_sectors_dma: sdmmc_send_cmd returned 0xffffffff
+E (68141) diskio_sdmmc: sdmmc_read_blocks failed (-1)
+Failed to create event folder
+Event folder: /event_3
+E (68157) sdmmc_cmd: sdmmc_read_sectors_dma: sdmmc_send_cmd returned 0xffffffff
+E (68158) diskio_sdmmc: sdmmc_read_blocks failed (-1)
+E (68163) sdmmc_cmd: sdmmc_read_sectors_dma: sdmmc_send_cmd returned 0xffffffff
+E (68170) diskio_sdmmc: sdmmc_read_blocks failed (-1)
+E (68175) sdmmc_cmd: sdmmc_read_sectors_dma: sdmmc_send_cmd returned 0xffffffff
+E (68181) diskio_sdmmc: sdmmc_read_blocks failed (-1)
+E (68187) sdmmc_cmd: sdmmc_read_sectors_dma: sdmmc_send_cmd returned 0xffffffff
+E (68193) diskio_sdmmc: sdmmc_read_blocks failed (-1)
+[ 68203][E][vfs_api.cpp:332] VFSFileImpl(): fopen(/sdcard/event_3/pre_0.jpg) failed
+Failed to open file: /event_3/pre_0.jpg
+Failed /event_3/pre_0.jpg
+E (68217) sdmmc_cmd: sdmmc_read_sectors_dma: sdmmc_send_cmd returned 0xffffffff
+E (68218) diskio_sdmmc: sdmmc_read_blocks failed (-1)
+Saved /event_3/pre_1.jpg
+Saved /event_3/pre_2.jpg
+Saved /event_3/pre_3.jpg
+Saved /event_3/pre_4.jpg
+Saved /event_3/pre_5.jpg
+Saved /event_3/pre_6.jpg
+Saved /event_3/pre_7.jpg
+Saved /event_3/pre_8.jpg
+Saved /event_3/pre_9.jpg
+Saved /event_3/post_0.jpg
+Saved /event_3/post_1.jpg
+Saved /event_3/post_2.jpg
+Saved /event_3/post_3.jpg
+Saved /event_3/post_4.jpg
+Saved /event_3/post_5.jpg
+Saved /event_3/post_6.jpg
+Saved /event_3/post_7.jpg
+Saved /event_3/post_8.jpg
+Saved /event_3/post_9.jpg
+Saved /event_3/post_10.jpg
+Saved /event_3/post_11.jpg
+Saved /event_3/post_12.jpg
+Saved /event_3/post_13.jpg
+Saved /event_3/post_14.jpg
+Saved /event_3/post_15.jpg
+Saved /event_3/post_16.jpg
+Saved /event_3/post_17.jpg
+Saved /event_3/post_18.jpg
+Crash event saved
+Crash trigger received
+Saving crash event
+E (82203) sdmmc_cmd: sdmmc_read_sectors_dma: sdmmc_send_cmd returned 0xffffffff
+E (82203) diskio_sdmmc: sdmmc_read_blocks failed (-1)
+E (82207) sdmmc_cmd: sdmmc_read_sectors_dma: sdmmc_send_cmd returned 0xffffffff
+E (82214) diskio_sdmmc: sdmmc_read_blocks failed (-1)
+E (82219) sdmmc_cmd: sdmmc_read_sectors_dma: sdmmc_send_cmd returned 0xffffffff
+E (82226) diskio_sdmmc: sdmmc_read_blocks failed (-1)
+E (82231) sdmmc_cmd: sdmmc_read_sectors_dma: sdmmc_send_cmd returned 0xffffffff
+E (82237) diskio_sdmmc: sdmmc_read_blocks failed (-1)
+E (82243) sdmmc_cmd: sdmmc_read_sectors_dma: sdmmc_send_cmd returned 0xffffffff
+E (82249) diskio_sdmmc: sdmmc_read_blocks failed (-1)
+Failed to create event folder
+Event folder: /event_4
+E (82265) sdmmc_cmd: sdmmc_read_sectors_dma: sdmmc_send_cmd returned 0xffffffff
+E (82266) diskio_sdmmc: sdmmc_read_blocks failed (-1)
+E (82271) sdmmc_cmd: sdmmc_read_sectors_dma: sdmmc_send_cmd returned 0xffffffff
+E (82278) diskio_sdmmc: sdmmc_read_blocks failed (-1)
+E (82283) sdmmc_cmd: sdmmc_read_sectors_dma: sdmmc_send_cmd returned 0xffffffff
+E (82289) diskio_sdmmc: sdmmc_read_blocks failed (-1)
+E (82295) sdmmc_cmd: sdmmc_read_sectors_dma: sdmmc_send_cmd returned 0xffffffff
+E (82301) diskio_sdmmc: sdmmc_read_blocks failed (-1)
+[ 82311][E][vfs_api.cpp:332] VFSFileImpl(): fopen(/sdcard/event_4/pre_0.jpg) failed
+Failed to open file: /event_4/pre_0.jpg
+Failed /event_4/pre_0.jpg
+E (82325) sdmmc_cmd: sdmmc_read_sectors_dma: sdmmc_send_cmd returned 0xffffffff
+E (82326) diskio_sdmmc: sdmmc_read_blocks failed (-1)
+E (82331) sdmmc_cmd: sdmmc_read_sectors_dma: sdmmc_send_cmd returned 0xffffffff
+E (82338) diskio_sdmmc: sdmmc_read_blocks failed (-1)
+E (82343) sdmmc_cmd: sdmmc_read_sectors_dma: sdmmc_send_cmd returned 0xffffffff
+E (82350) diskio_sdmmc: sdmmc_read_blocks failed (-1)
+Saved /event_4/pre_1.jpg
+Saved /event_4/pre_2.jpg
+Saved /event_4/pre_3.jpg
+Saved /event_4/pre_4.jpg
+Saved /event_4/pre_5.jpg
+Saved /event_4/pre_6.jpg
+Saved /event_4/pre_7.jpg
+Saved /event_4/pre_8.jpg
+Saved /event_4/pre_9.jpg
+Saved /event_4/post_0.jpg
+Saved /event_4/post_1.jpg
+Saved /event_4/post_2.jpg
+Saved /event_4/post_3.jpg
+Saved /event_4/post_4.jpg
+Saved /event_4/post_5.jpg
+Saved /event_4/post_6.jpg
+Saved /event_4/post_7.jpg
+Saved /event_4/post_8.jpg
+Saved /event_4/post_9.jpg
+Saved /event_4/post_10.jpg
+Saved /event_4/post_11.jpg
+Saved /event_4/post_12.jpg
+Saved /event_4/post_13.jpg
+Saved /event_4/post_14.jpg
+Saved /event_4/post_15.jpg
+Saved /event_4/post_16.jpg
+Saved /event_4/post_17.jpg
+Saved /event_4/post_18.jpg
+Saved /event_4/post_19.jpg
+Crash event saved
+ets Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x12 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13232
+load:0x40080400,len:3028
+entry 0x400805e4
+ESP32-CAM crash recorder starting
+Camera initialized
+SD card size: 60906 MB
+ESP32-CAM ready
+Crash trigger received
+Saving crash event
+E (6006) sdmmc_cmd: sdmmc_read_sectors_dma: sdmmc_send_cmd returned 0xffffffff
+E (6006) diskio_sdmmc: sdmmc_read_blocks failed (-1)
+E (6010) sdmmc_cmd: sdmmc_read_sectors_dma: sdmmc_send_cmd returned 0xffffffff
+E (6016) diskio_sdmmc: sdmmc_read_blocks failed (-1)
+E (6022) sdmmc_cmd: sdmmc_read_sectors_dma: sdmmc_send_cmd returned 0xffffffff
+E (6028) diskio_sdmmc: sdmmc_read_blocks failed (-1)
+E (6033) sdmmc_cmd: sdmmc_read_sectors_dma: sdmmc_send_cmd returned 0xffffffff
+E (6040) diskio_sdmmc: sdmmc_read_blocks failed (-1)
+E (6045) sdmmc_cmd: sdmmc_read_sectors_dma: sdmmc_send_cmd returned 0xffffffff
+E (6051) diskio_sdmmc: sdmmc_read_blocks failed (-1)
+Failed to create event folder
+Event folder: /event_0
+E (6067) sdmmc_cmd: sdmmc_read_sectors_dma: sdmmc_send_cmd returned 0xffffffff
+E (6068) diskio_sdmmc: sdmmc_read_blocks failed (-1)
+E (6073) sdmmc_cmd: sdmmc_read_sectors_dma: sdmmc_send_cmd returned 0xffffffff
+E (6079) diskio_sdmmc: sdmmc_read_blocks failed (-1)
+E (6085) sdmmc_cmd: sdmmc_read_sectors_dma: sdmmc_send_cmd returned 0xffffffff
+E (6091) diskio_sdmmc: sdmmc_read_blocks failed (-1)
+E (6096) sdmmc_cmd: sdmmc_read_sectors_dma: sdmmc_send_cmd returned 0xffffffff
+E (6103) diskio_sdmmc: sdmmc_read_blocks failed (-1)
+[  6112][E][vfs_api.cpp:332] VFSFileImpl(): fopen(/sdcard/event_0/pre_0.jpg) failed
+Failed to open file: /event_0/pre_0.jpg
+Failed /event_0/pre_0.jpg
+E (6127) sdmmc_cmd: sdmmc_read_sectors_dma: sdmmc_send_cmd returned 0xffffffff
+E (6128) diskio_sdmmc: sdmmc_read_blocks failed (-1)
+E (6133) sdmmc_cmd: sdmmc_read_sectors_dma: sdmmc_send_cmd returned 0xffffffff
+E (6139) diskio_sdmmc: sdmmc_read_blocks failed (-1)
+E (6145) sdmmc_cmd: sdmmc_read_sectors_dma: sdmmc_send_cmd returned 0xffffffff
+E (6151) diskio_sdmmc: sdmmc_read_blocks failed (-1)
+E (6156) sdmmc_cmd: sdmmc_read_sectors_dma: sdmmc_send_cmd returned 0xffffffff
+E (6163) diskio_sdmmc: sdmmc_read_blocks failed (-1)
+[  6172][E][vfs_api.cpp:332] VFSFileImpl(): fopen(/sdcard/event_0/pre_1.jpg) failed
+Failed to open file: /event_0/pre_1.jpg
+Failed /event_0/pre_1.jpg
+Saved /event_0/pre_2.jpg
+Saved /event_0/pre_3.jpg
+Saved /event_0/pre_4.jpg
+Saved /event_0/pre_5.jpg
+Saved /event_0/pre_6.jpg
+Saved /event_0/post_0.jpg
+Saved /event_0/post_1.jpg
+Saved /event_0/post_2.jpg
+Saved /event_0/post_3.jpg
+Saved /event_0/post_4.jpg
+Saved /event_0/post_5.jpg
+Saved /event_0/post_6.jpg
+Saved /event_0/post_7.jpg
+Saved /event_0/post_8.jpg
+Saved /event_0/post_9.jpg
+Saved /event_0/post_10.jpg
+Saved /event_0/post_11.jpg
+Saved /event_0/post_12.jpg
+Saved /event_0/post_13.jpg
+Saved /event_0/post_14.jpg
+Saved /event_0/post_15.jpg
+Saved /event_0/post_16.jpg
+Saved /event_0/post_17.jpg
+Saved /event_0/post_18.jpg
+Saved /event_0/post_19.jpg
+Crash event saved
+Crash trigger received
+Saving crash event
+E (18481) sdmmc_cmd: sdmmc_read_sectors_dma: sdmmc_send_cmd returned 0xffffffff
+E (18481) diskio_sdmmc: sdmmc_read_blocks failed (-1)
+E (18485) sdmmc_cmd: sdmmc_read_sectors_dma: sdmmc_send_cmd returned 0xffffffff
+E (18492) diskio_sdmmc: sdmmc_read_blocks failed (-1)
+E (18497) sdmmc_cmd: sdmmc_read_sectors_dma: sdmmc_send_cmd returned 0xffffffff
+E (18504) diskio_sdmmc: sdmmc_read_blocks failed (-1)
+E (18509) sdmmc_cmd: sdmmc_read_sectors_dma: sdmmc_send_cmd returned 0xffffffff
+E (18515) diskio_sdmmc: sdmmc_read_blocks failed (-1)
+E (18521) sdmmc_cmd: sdmmc_read_sectors_dma: sdmmc_send_cmd returned 0xffffffff
+E (18527) diskio_sdmmc: sdmmc_read_blocks failed (-1)
+Failed to create event folder
+Event folder: /event_1
+E (18543) sdmmc_cmd: sdmmc_read_sectors_dma: sdmmc_send_cmd returned 0xffffffff
+E (18544) diskio_sdmmc: sdmmc_read_blocks failed (-1)
+E (18549) sdmmc_cmd: sdmmc_read_sectors_dma: sdmmc_send_cmd returned 0xffffffff
+E (18556) diskio_sdmmc: sdmmc_read_blocks failed (-1)
+E (18561) sdmmc_cmd: sdmmc_read_sectors_dma: sdmmc_send_cmd returned 0xffffffff
+E (18567) diskio_sdmmc: sdmmc_read_blocks failed (-1)
+E (18573) sdmmc_cmd: sdmmc_read_sectors_dma: sdmmc_send_cmd returned 0xffffffff
+E (18579) diskio_sdmmc: sdmmc_read_blocks failed (-1)
+[ 18589][E][vfs_api.cpp:332] VFSFileImpl(): fopen(/sdcard/event_1/pre_0.jpg) failed
+Failed to open file: /event_1/pre_0.jpg
+Failed /event_1/pre_0.jpg
+E (19603) sdmmc_req: sdmmc_host_wait_for_event returned 0x107
+E (19603) sdmmc_cmd: sdmmc_read_sectors_dma: sdmmc_send_cmd returned 0x107
+E (19604) diskio_sdmmc: sdmmc_read_blocks failed (263)
+[ 19615][E][vfs_api.cpp:332] VFSFileImpl(): fopen(/sdcard/event_1/pre_1.jpg) failed
+Failed to open file: /event_1/pre_1.jpg
+Failed /event_1/pre_1.jpg
+[ 19633][E][vfs_api.cpp:332] VFSFileImpl(): fopen(/sdcard/event_1/pre_2.jpg) failed
+Failed to open file: /event_1/pre_2.jpg
+Failed /event_1/pre_2.jpg
+[ 19647][E][vfs_api.cpp:332] VFSFileImpl(): fopen(/sdcard/event_1/pre_3.jpg) failed
+Failed to open file: /event_1/pre_3.jpg
+Failed /event_1/pre_3.jpg
+[ 19660][E][vfs_api.cpp:332] VFSFileImpl(): fopen(/sdcard/event_1/pre_4.jpg) failed
+Failed to open file: /event_1/pre_4.jpg
+Failed /event_1/pre_4.jpg
+[ 19673][E][vfs_api.cpp:332] VFSFileImpl(): fopen(/sdcard/event_1/pre_5.jpg) failed
+Failed to open file: /event_1/pre_5.jpg
+Failed /event_1/pre_5.jpg
+[ 19687][E][vfs_api.cpp:332] VFSFileImpl(): fopen(/sdcard/event_1/pre_6.jpg) failed
+Failed to open file: /event_1/pre_6.jpg
+Failed /event_1/pre_6.jpg
+[ 19700][E][vfs_api.cpp:332] VFSFileImpl(): fopen(/sdcard/event_1/pre_7.jpg) failed
+Failed to open file: /event_1/pre_7.jpg
+Failed /event_1/pre_7.jpg
+[ 19713][E][vfs_api.cpp:332] VFSFileImpl(): fopen(/sdcard/event_1/pre_8.jpg) failed
+Failed to open file: /event_1/pre_8.jpg
+Failed /event_1/pre_8.jpg
+[ 19727][E][vfs_api.cpp:332] VFSFileImpl(): fopen(/sdcard/event_1/pre_9.jpg) failed
+Failed to open file: /event_1/pre_9.jpg
+Failed /event_1/pre_9.jpg
+[ 19741][E][vfs_api.cpp:332] VFSFileImpl(): fopen(/sdcard/event_1/post_0.jpg) failed
+Failed to open /event_1/post_0.jpg
+[ 20254][E][vfs_api.cpp:332] VFSFileImpl(): fopen(/sdcard/event_1/post_1.jpg) failed
+Failed to open /event_1/post_1.jpg
+[ 20763][E][vfs_api.cpp:332] VFSFileImpl(): fopen(/sdcard/event_1/post_2.jpg) failed
+Failed to open /event_1/post_2.jpg
+[ 21272][E][vfs_api.cpp:332] VFSFileImpl(): fopen(/sdcard/event_1/post_3.jpg) failed
+Failed to open /event_1/post_3.jpg
+[ 21781][E][vfs_api.cpp:332] VFSFileImpl(): fopen(/sdcard/event_1/post_4.jpg) failed
+Failed to open /event_1/post_4.jpg
+[ 22290][E][vfs_api.cpp:332] VFSFileImpl(): fopen(/sdcard/event_1/post_5.jpg) failed
+Failed to open /event_1/post_5.jpg
+[ 22799][E][vfs_api.cpp:332] VFSFileImpl(): fopen(/sdcard/event_1/post_6.jpg) failed
+Failed to open /event_1/post_6.jpg
+[ 23308][E][vfs_api.cpp:332] VFSFileImpl(): fopen(/sdcard/event_1/post_7.jpg) failed
+Failed to open /event_1/post_7.jpg
+[ 23818][E][vfs_api.cpp:332] VFSFileImpl(): fopen(/sdcard/event_1/post_8.jpg) failed
+Failed to open /event_1/post_8.jpg
+[ 24327][E][vfs_api.cpp:332] VFSFileImpl(): fopen(/sdcard/event_1/post_9.jpg) failed
+Failed to open /event_1/post_9.jpg
+[ 24837][E][vfs_api.cpp:332] VFSFileImpl(): fopen(/sdcard/event_1/post_10.jpg) failed
+Failed to open /event_1/post_10.jpg
+[ 25346][E][vfs_api.cpp:332] VFSFileImpl(): fopen(/sdcard/event_1/post_11.jpg) failed
+Failed to open /event_1/post_11.jpg
+[ 25857][E][vfs_api.cpp:332] VFSFileImpl(): fopen(/sdcard/event_1/post_12.jpg) failed
+Failed to open /event_1/post_12.jpg
+[ 26366][E][vfs_api.cpp:332] VFSFileImpl(): fopen(/sdcard/event_1/post_13.jpg) failed
+Failed to open /event_1/post_13.jpg
+[ 26876][E][vfs_api.cpp:332] VFSFileImpl(): fopen(/sdcard/event_1/post_14.jpg) failed
+Failed to open /event_1/post_14.jpg
+[ 27386][E][vfs_api.cpp:332] VFSFileImpl(): fopen(/sdcard/event_1/post_15.jpg) failed
+Failed to open /event_1/post_15.jpg
+[ 27897][E][vfs_api.cpp:332] VFSFileImpl(): fopen(/sdcard/event_1/post_16.jpg) failed
+Failed to open /event_1/post_16.jpg
+[ 28406][E][vfs_api.cpp:332] VFSFileImpl(): fopen(/sdcard/event_1/post_17.jpg) failed
+Failed to open /event_1/post_17.jpg
+[ 28917][E][vfs_api.cpp:332] VFSFileImpl(): fopen(/sdcard/event_1/post_18.jpg) failed
+Failed to open /event_1/post_18.jpg
+[ 29426][E][vfs_api.cpp:332] VFSFileImpl(): fopen(/sdcard/event_1/post_19.jpg) failed
+Failed to open /event_1/post_19.jpg
+Crash event saved
+Crash trigger received
+Saving crash event
+E (33699) sdmmc_cmd: sdmmc_read_sectors_dma: sdmmc_send_cmd returned 0xffffffff
+E (33700) diskio_sdmmc: sdmmc_read_blocks failed (-1)
+Failed to create event folder
+Event folder: /event_2
+E (33714) sdmmc_cmd: sdmmc_read_sectors_dma: sdmmc_send_cmd returned 0xffffffff
+E (33714) diskio_sdmmc: sdmmc_read_blocks failed (-1)
+E (33720) sdmmc_cmd: sdmmc_read_sectors_dma: sdmmc_send_cmd returned 0xffffffff
+E (33726) diskio_sdmmc: sdmmc_read_blocks failed (-1)
+E (33732) sdmmc_cmd: sdmmc_read_sectors_dma: sdmmc_send_cmd returned 0xffffffff
+E (33738) diskio_sdmmc: sdmmc_read_blocks failed (-1)
+E (33743) sdmmc_cmd: sdmmc_read_sectors_dma: sdmmc_send_cmd returned 0xffffffff
+E (33750) diskio_sdmmc: sdmmc_read_blocks failed (-1)
+[ 33760][E][vfs_api.cpp:332] VFSFileImpl(): fopen(/sdcard/event_2/pre_0.jpg) failed
+Failed to open file: /event_2/pre_0.jpg
+Failed /event_2/pre_0.jpg
+E (33774) sdmmc_cmd: sdmmc_read_sectors_dma: sdmmc_send_cmd returned 0xffffffff
+E (33775) diskio_sdmmc: sdmmc_read_blocks failed (-1)
+E (33780) sdmmc_cmd: sdmmc_read_sectors_dma: sdmmc_send_cmd returned 0xffffffff
+E (33787) diskio_sdmmc: sdmmc_read_blocks failed (-1)
+E (33792) sdmmc_cmd: sdmmc_read_sectors_dma: sdmmc_send_cmd returned 0xffffffff
+E (33799) diskio_sdmmc: sdmmc_read_blocks failed (-1)
+E (33804) sdmmc_cmd: sdmmc_read_sectors_dma: sdmmc_send_cmd returned 0xffffffff
+E (33811) diskio_sdmmc: sdmmc_read_blocks failed (-1)
+[ 33820][E][vfs_api.cpp:332] VFSFileImpl(): fopen(/sdcard/event_2/pre_1.jpg) failed
+Failed to open file: /event_2/pre_1.jpg
+Failed /event_2/pre_1.jpg
+E (33835) sdmmc_cmd: sdmmc_read_sectors_dma: sdmmc_send_cmd returned 0xffffffff
+E (33836) diskio_sdmmc: sdmmc_read_blocks failed (-1)
+E (33841) sdmmc_cmd: sdmmc_read_sectors_dma: sdmmc_send_cmd returned 0xffffffff
+E (33847) diskio_sdmmc: sdmmc_read_blocks failed (-1)
+E (33853) sdmmc_cmd: sdmmc_read_sectors_dma: sdmmc_send_cmd returned 0xffffffff
+E (33859) diskio_sdmmc: sdmmc_read_blocks failed (-1)
+E (33865) sdmmc_cmd: sdmmc_read_sectors_dma: sdmmc_send_cmd returned 0xffffffff
+E (33871) diskio_sdmmc: sdmmc_read_blocks failed (-1)
+[ 33881][E][vfs_api.cpp:332] VFSFileImpl(): fopen(/sdcard/event_2/pre_2.jpg) failed
+Failed to open file: /event_2/pre_2.jpg
+Failed /event_2/pre_2.jpg
+E (33895) sdmmc_cmd: sdmmc_read_sectors_dma: sdmmc_send_cmd returned 0xffffffff
+E (33896) diskio_sdmmc: sdmmc_read_blocks failed (-1)
+E (33901) sdmmc_cmd: sdmmc_read_sectors_dma: sdmmc_send_cmd returned 0xffffffff
+E (33908) diskio_sdmmc: sdmmc_read_blocks failed (-1)
+E (33913) sdmmc_cmd: sdmmc_read_sectors_dma: sdmmc_send_cmd returned 0xffffffff
+E (33920) diskio_sdmmc: sdmmc_read_blocks failed (-1)
+E (33925) sdmmc_cmd: sdmmc_read_sectors_dma: sdmmc_send_cmd returned 0xffffffff
+E (33932) diskio_sdmmc: sdmmc_read_blocks failed (-1)
+[ 33941][E][vfs_api.cpp:332] VFSFileImpl(): fopen(/sdcard/event_2/pre_3.jpg) failed
+Failed to open file: /event_2/pre_3.jpg
+Failed /event_2/pre_3.jpg
+E (33956) sdmmc_cmd: sdmmc_read_sectors_dma: sdmmc_send_cmd returned 0xffffffff
+E (33957) diskio_sdmmc: sdmmc_read_blocks failed (-1)
+E (33962) sdmmc_cmd: sdmmc_read_sectors_dma: sdmmc_send_cmd returned 0xffffffff
+E (33969) diskio_sdmmc: sdmmc_read_blocks failed (-1)
+E (33974) sdmmc_cmd: sdmmc_read_sectors_dma: sdmmc_send_cmd returned 0xffffffff
+E (33980) diskio_sdmmc: sdmmc_read_blocks failed (-1)
+E (33986) sdmmc_cmd: sdmmc_read_sectors_dma: sdmmc_send_cmd returned 0xffffffff
+E (33992) diskio_sdmmc: sdmmc_read_blocks failed (-1)
+[ 34002][E][vfs_api.cpp:332] VFSFileImpl(): fopen(/sdcard/event_2/pre_4.jpg) failed
+Failed to open file: /event_2/pre_4.jpg
+Failed /event_2/pre_4.jpg
+E (34016) sdmmc_cmd: sdmmc_read_sectors_dma: sdmmc_send_cmd returned 0xffffffff
+E (34017) diskio_sdmmc: sdmmc_read_blocks failed (-1)
+E (34023) sdmmc_cmd: sdmmc_read_sectors_dma: sdmmc_send_cmd returned 0xffffffff
+E (34029) diskio_sdmmc: sdmmc_read_blocks failed (-1)
+E (34035) sdmmc_cmd: sdmmc_read_sectors_dma: sdmmc_send_cmd returned 0xffffffff
+E (34041) diskio_sdmmc: sdmmc_read_blocks failed (-1)
+E (34046) sdmmc_cmd: sdmmc_read_sectors_dma: sdmmc_send_cmd returned 0xffffffff
+E (34053) diskio_sdmmc: sdmmc_read_blocks failed (-1)
+[ 34062][E][vfs_api.cpp:332] VFSFileImpl(): fopen(/sdcard/event_2/pre_5.jpg) failed
+Failed to open file: /event_2/pre_5.jpg
+Failed /event_2/pre_5.jpg
+E (34077) sdmmc_cmd: sdmmc_read_sectors_dma: sdmmc_send_cmd returned 0xffffffff
+E (34078) diskio_sdmmc: sdmmc_read_blocks failed (-1)
+E (34083) sdmmc_cmd: sdmmc_read_sectors_dma: sdmmc_send_cmd returned 0xffffffff
+E (34090) diskio_sdmmc: sdmmc_read_blocks failed (-1)
+E (34095) sdmmc_cmd: sdmmc_read_sectors_dma: sdmmc_send_cmd returned 0xffffffff
+E (34102) diskio_sdmmc: sdmmc_read_blocks failed (-1)
+E (34107) sdmmc_cmd: sdmmc_read_sectors_dma: sdmmc_send_cmd returned 0xffffffff
+E (34113) diskio_sdmmc: sdmmc_read_blocks failed (-1)
+[ 34123][E][vfs_api.cpp:332] VFSFileImpl(): fopen(/sdcard/event_2/pre_6.jpg) failed
+Failed to open file: /event_2/pre_6.jpg
+Failed /event_2/pre_6.jpg
+E (34138) sdmmc_cmd: sdmmc_read_sectors_dma: sdmmc_send_cmd returned 0xffffffff
+E (34139) diskio_sdmmc: sdmmc_read_blocks failed (-1)
+E (34144) sdmmc_cmd: sdmmc_read_sectors_dma: sdmmc_send_cmd returned 0xffffffff
+E (34150) diskio_sdmmc: sdmmc_read_blocks failed (-1)
+E (34156) sdmmc_cmd: sdmmc_read_sectors_dma: sdmmc_send_cmd returned 0xffffffff
+E (34162) diskio_sdmmc: sdmmc_read_blocks failed (-1)
+E (34168) sdmmc_cmd: sdmmc_read_sectors_dma: sdmmc_send_cmd returned 0xffffffff
+E (34174) diskio_sdmmc: sdmmc_read_blocks failed (-1)
+[ 34184][E][vfs_api.cpp:332] VFSFileImpl(): fopen(/sdcard/event_2/pre_7.jpg) failed
+Failed to open file: /event_2/pre_7.jpg
+Failed /event_2/pre_7.jpg
+E (34198) sdmmc_cmd: sdmmc_read_sectors_dma: sdmmc_send_cmd returned 0xffffffff
+E (34199) diskio_sdmmc: sdmmc_read_blocks failed (-1)
+E (34204) sdmmc_cmd: sdmmc_read_sectors_dma: sdmmc_send_cmd returned 0xffffffff
+E (34211) diskio_sdmmc: sdmmc_read_blocks failed (-1)
+E (34216) sdmmc_cmd: sdmmc_read_sectors_dma: sdmmc_send_cmd returned 0xffffffff
+E (34223) diskio_sdmmc: sdmmc_read_blocks failed (-1)
+E (34228) sdmmc_cmd: sdmmc_read_sectors_dma: sdmmc_send_cmd returned 0xffffffff
+E (34235) diskio_sdmmc: sdmmc_read_blocks failed (-1)
+[ 34244][E][vfs_api.cpp:332] VFSFileImpl(): fopen(/sdcard/event_2/pre_8.jpg) failed
+Failed to open file: /event_2/pre_8.jpg
+Failed /event_2/pre_8.jpg
+E (34259) sdmmc_cmd: sdmmc_read_sectors_dma: sdmmc_send_cmd returned 0xffffffff
+E (34260) diskio_sdmmc: sdmmc_read_blocks failed (-1)
+E (34265) sdmmc_cmd: sdmmc_read_sectors_dma: sdmmc_send_cmd returned 0xffffffff
+E (34272) diskio_sdmmc: sdmmc_read_blocks failed (-1)
+E (34277) sdmmc_cmd: sdmmc_read_sectors_dma: sdmmc_send_cmd returned 0xffffffff
+E (34283) diskio_sdmmc: sdmmc_read_blocks failed (-1)
+E (34289) sdmmc_cmd: sdmmc_read_sectors_dma: sdmmc_send_cmd returned 0xffffffff
+E (34295) diskio_sdmmc: sdmmc_read_blocks failed (-1)
+[ 34305][E][vfs_api.cpp:332] VFSFileImpl(): fopen(/sdcard/event_2/pre_9.jpg) failed
+Failed to open file: /event_2/pre_9.jpg
+Failed /event_2/pre_9.jpg
+E (34320) sdmmc_cmd: sdmmc_read_sectors_dma: sdmmc_send_cmd returned 0xffffffff
+E (34320) diskio_sdmmc: sdmmc_read_blocks failed (-1)
+E (35326) sdmmc_req: sdmmc_host_wait_for_event returned 0x107
+E (35326) sdmmc_cmd: sdmmc_read_sectors_dma: sdmmc_send_cmd returned 0x107
+E (35327) diskio_sdmmc: sdmmc_read_blocks failed (263)
+[ 35338][E][vfs_api.cpp:332] VFSFileImpl(): fopen(/sdcard/event_2/post_0.jpg) failed
+Failed to open /event_2/post_0.jpg
+[ 35858][E][vfs_api.cpp:332] VFSFileImpl(): fopen(/sdcard/event_2/post_1.jpg) failed
+Failed to open /event_2/post_1.jpg
+[ 36368][E][vfs_api.cpp:332] VFSFileImpl(): fopen(/sdcard/event_2/post_2.jpg) failed
+Failed to open /event_2/post_2.jpg
+[ 36876][E][vfs_api.cpp:332] VFSFileImpl(): fopen(/sdcard/event_2/post_3.jpg) failed
+Failed to open /event_2/post_3.jpg
+[ 37386][E][vfs_api.cpp:332] VFSFileImpl(): fopen(/sdcard/event_2/post_4.jpg) failed
+Failed to open /event_2/post_4.jpg
+[ 37895][E][vfs_api.cpp:332] VFSFileImpl(): fopen(/sdcard/event_2/post_5.jpg) failed
+Failed to open /event_2/post_5.jpg
+[ 38404][E][vfs_api.cpp:332] VFSFileImpl(): fopen(/sdcard/event_2/post_6.jpg) failed
+Failed to open /event_2/post_6.jpg
+[ 38913][E][vfs_api.cpp:332] VFSFileImpl(): fopen(/sdcard/event_2/post_7.jpg) failed
+Failed to open /event_2/post_7.jpg
+[ 39422][E][vfs_api.cpp:332] VFSFileImpl(): fopen(/sdcard/event_2/post_8.jpg) failed
+Failed to open /event_2/post_8.jpg
+[ 39931][E][vfs_api.cpp:332] VFSFileImpl(): fopen(/sdcard/event_2/post_9.jpg) failed
+Failed to open /event_2/post_9.jpg
+[ 40440][E][vfs_api.cpp:332] VFSFileImpl(): fopen(/sdcard/event_2/post_10.jpg) failed
+Failed to open /event_2/post_10.jpg
+[ 40949][E][vfs_api.cpp:332] VFSFileImpl(): fopen(/sdcard/event_2/post_11.jpg) failed
+Failed to open /event_2/post_11.jpg
+[ 41458][E][vfs_api.cpp:332] VFSFileImpl(): fopen(/sdcard/event_2/post_12.jpg) failed
+Failed to open /event_2/post_12.jpg
+[ 41968][E][vfs_api.cpp:332] VFSFileImpl(): fopen(/sdcard/event_2/post_13.jpg) failed
+Failed to open /event_2/post_13.jpg
+[ 42478][E][vfs_api.cpp:332] VFSFileImpl(): fopen(/sdcard/event_2/post_14.jpg) failed
+Failed to open /event_2/post_14.jpg
+[ 42987][E][vfs_api.cpp:332] VFSFileImpl(): fopen(/sdcard/event_2/post_15.jpg) failed
+Failed to open /event_2/post_15.jpg
+[ 43496][E][vfs_api.cpp:332] VFSFileImpl(): fopen(/sdcard/event_2/post_16.jpg) failed
+Failed to open /event_2/post_16.jpg
+[ 44005][E][vfs_api.cpp:332] VFSFileImpl(): fopen(/sdcard/event_2/post_17.jpg) failed
+Failed to open /event_2/post_17.jpg
+Crash event saved
