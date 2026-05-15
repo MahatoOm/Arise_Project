@@ -1,4 +1,269 @@
 Logs for Rolling Camera before and after accident
+
+May 14
+ *  Executing task: platformio device monitor 
+
+--- Terminal on /dev/cu.usbserial-A5069RR4 | 115200 8-N-1
+--- Available filters and text transformations: debug, default, direct, esp32_exception_decoder, hexlify, log2file, nocontrol, printable, send_on_enter, time
+--- More details at https://bit.ly/pio-monitor-filters
+--- Quit: Ctrl+C | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H
+ESP32-CAM crash recorder starting
+Camera initialized
+SD card size: 60906 MB
+ESP32-CAM ready
+11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111110Crash trigger received
+Saving crash event
+E (18811) sdmmc_req: sdmmc_host_wait_for_event returned 0x107
+E (18812) diskio_sdmmc: Check status failed (0x107)
+E (19812) sdmmc_req: sdmmc_host_wait_for_event returned 0x107
+E (19812) diskio_sdmmc: Check status failed (0x107)
+Event folder: /event_0
+Saved /event_0/pre_0.jpg
+Saved /event_0/pre_1.jpg
+Saved /event_0/pre_2.jpg
+Saved /event_0/pre_3.jpg
+Saved /event_0/pre_4.jpg
+Saved /event_0/pre_5.jpg
+Saved /event_0/pre_6.jpg
+Saved /event_0/pre_7.jpg
+Saved /event_0/pre_8.jpg
+Saved /event_0/pre_9.jpg
+Saved /event_0/post_0.jpg
+Saved /event_0/post_1.jpg
+Saved /event_0/post_2.jpg
+Saved /event_0/post_3.jpg
+Saved /event_0/post_4.jpg
+Saved /event_0/post_5.jpg
+Saved /event_0/post_6.jpg
+Saved /event_0/post_7.jpg
+Saved /event_0/post_8.jpg
+Saved /event_0/post_9.jpg
+Saved /event_0/post_10.jpg
+Saved /event_0/post_11.jpg
+Saved /event_0/post_12.jpg
+Saved /event_0/post_13.jpg
+Saved /event_0/post_14.jpg
+Saved /event_0/post_15.jpg
+Saved /event_0/post_16.jpg
+Saved /event_0/post_17.jpg
+Saved /event_0/post_18.jpg
+Saved /event_0/post_19.jpg
+Crash event saved
+111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111110Crash trigger received
+Saving crash event
+Event folder: /event_1
+Saved /event_1/pre_0.jpg
+Saved /event_1/pre_1.jpg
+Saved /event_1/pre_2.jpg
+Saved /event_1/pre_3.jpg
+Saved /event_1/pre_4.jpg
+Saved /event_1/pre_5.jpg
+Saved /event_1/pre_6.jpg
+Saved /event_1/pre_7.jpg
+Saved /event_1/pre_8.jpg
+Saved /event_1/pre_9.jpg
+Saved /event_1/post_0.jpg
+Saved /event_1/post_1.jpg
+Saved /event_1/post_2.jpg
+Saved /event_1/post_3.jpg
+Saved /event_1/post_4.jpg
+Saved /event_1/post_5.jpg
+Saved /event_1/post_6.jpg
+Saved /event_1/post_7.jpg
+Saved /event_1/post_8.jpg
+Saved /event_1/post_9.jpg
+Saved /event_1/post_10.jpg
+Saved /event_1/post_11.jpg
+Saved /event_1/post_12.jpg
+Saved /event_1/post_13.jpg
+Saved /event_1/post_14.jpg
+Saved /event_1/post_15.jpg
+Saved /event_1/post_16.jpg
+Saved /event_1/post_17.jpg
+Saved /event_1/post_18.jpg
+Crash event saved
+1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111110Crash trigger received
+Saving crash event
+Event folder: /event_2
+Saved /event_2/pre_0.jpg
+Saved /event_2/pre_1.jpg
+Saved /event_2/pre_2.jpg
+Saved /event_2/pre_3.jpg
+Saved /event_2/pre_4.jpg
+Saved /event_2/pre_5.jpg
+Saved /event_2/pre_6.jpg
+Saved /event_2/pre_7.jpg
+Saved /event_2/pre_8.jpg
+Saved /event_2/pre_9.jpg
+Saved /event_2/post_0.jpg
+Saved /event_2/post_1.jpg
+Saved /event_2/post_2.jpg
+Saved /event_2/post_3.jpg
+Saved /event_2/post_4.jpg
+Saved /event_2/post_5.jpg
+Saved /event_2/post_6.jpg
+Saved /event_2/post_7.jpg
+Saved /event_2/post_8.jpg
+Saved /event_2/post_9.jpg
+Saved /event_2/post_10.jpg
+Saved /event_2/post_11.jpg
+Saved /event_2/post_12.jpg
+Saved /event_2/post_13.jpg
+Saved /event_2/post_14.jpg
+Saved /event_2/post_15.jpg
+Saved /event_2/post_16.jpg
+Saved /event_2/post_17.jpg
+Saved /event_2/post_18.jpg
+
+
+
+May 11
+Reconnecting to /dev/cu.usbserial-A5069RR4 ...   Connected!
+ESP32-CAM crash recorder starting
+Camera initialized
+SD card size: 60906 MB
+ESP32-CAM ready
+Saved: /buffer_0.jpg
+Crash trigger received
+ACCIDENT TRIGGER RECEIVED
+Saving accident event...
+Copied: /accident_2_pre_0.jpg
+Copied: /accident_2_pre_1.jpg
+Copied: /accident_2_pre_2.jpg
+Copied: /accident_2_pre_3.jpg
+Copied: /accident_2_pre_4.jpg
+Copied: /accident_2_pre_5.jpg
+Copied: /accident_2_pre_6.jpg
+Copied: /accident_2_pre_7.jpg
+Copied: /accident_2_pre_8.jpg
+Copied: /accident_2_pre_9.jpg
+Copied: /accident_2_pre_10.jpg
+Copied: /accident_2_pre_11.jpg
+Copied: /accident_2_pre_12.jpg
+Copied: /accident_2_pre_13.jpg
+Copied: /accident_2_pre_14.jpg
+Copied: /accident_2_pre_15.jpg
+Copied: /accident_2_pre_16.jpg
+Copied: /accident_2_pre_17.jpg
+Copied: /accident_2_pre_18.jpg
+Copied: /accident_2_pre_19.jpg
+Saved: /accident_2_post_0.jpg
+Saved: /accident_2_post_1.jpg
+Saved: /accident_2_post_2.jpg
+Saved: /accident_2_post_3.jpg
+Saved: /accident_2_post_4.jpg
+E (13442) sdmmc_cmd: sdmmc_read_sectors_dma: sdmmc_send_cmd returned 0x109
+E (13443) diskio_sdmmc: sdmmc_read_blocks failed (265)
+E (13444) sdmmc_cmd: sdmmc_read_sectors_dma: sdmmc_send_cmd returned 0x109
+E (13450) diskio_sdmmc: sdmmc_read_blocks failed (265)
+E (13455) sdmmc_cmd: sdmmc_read_sectors_dma: sdmmc_send_cmd returned 0x109
+E (13461) diskio_sdmmc: sdmmc_read_blocks failed (265)
+E (13467) sdmmc_cmd: sdmmc_read_sectors_dma: sdmmc_send_cmd returned 0x109
+E (13473) diskio_sdmmc: sdmmc_read_blocks failed (265)
+[ 13493][E][vfs_api.cpp:332] VFSFileImpl(): fopen(/sdcard/accident_2_post_5.jpg) failed
+Failed to open file: /accident_2_post_5.jpg
+E (14498) sdmmc_cmd: sdmmc_read_sectors_dma: sdmmc_send_cmd returned 0x109
+E (14499) diskio_sdmmc: sdmmc_read_blocks failed (265)
+E (14499) sdmmc_cmd: sdmmc_read_sectors_dma: sdmmc_send_cmd returned 0x109
+E (14505) diskio_sdmmc: sdmmc_read_blocks failed (265)
+E (14511) sdmmc_cmd: sdmmc_read_sectors_dma: sdmmc_send_cmd returned 0x109
+E (14517) diskio_sdmmc: sdmmc_read_blocks failed (265)
+E (14522) sdmmc_cmd: sdmmc_read_sectors_dma: sdmmc_send_cmd returned 0x109
+E (14528) diskio_sdmmc: sdmmc_read_blocks failed (265)
+[ 14549][E][vfs_api.cpp:332] VFSFileImpl(): fopen(/sdcard/accident_2_post_6.jpg) failed
+Failed to open file: /accident_2_post_6.jpg
+E (15553) sdmmc_cmd: sdmmc_read_sectors_dma: sdmmc_send_cmd returned 0x109
+E (15554) diskio_sdmmc: sdmmc_read_blocks failed (265)
+E (15554) sdmmc_cmd: sdmmc_read_sectors_dma: sdmmc_send_cmd returned 0x109
+E (15560) diskio_sdmmc: sdmmc_read_blocks failed (265)
+E (15566) sdmmc_cmd: sdmmc_read_sectors_dma: sdmmc_send_cmd returned 0x109
+E (15572) diskio_sdmmc: sdmmc_read_blocks failed (265)
+E (15577) sdmmc_cmd: sdmmc_read_sectors_dma: sdmmc_send_cmd returned 0x109
+E (15583) diskio_sdmmc: sdmmc_read_blocks failed (265)
+[ 15604][E][vfs_api.cpp:332] VFSFileImpl(): fopen(/sdcard/accident_2_post_7.jpg) failed
+Failed to open file: /accident_2_post_7.jpg
+E (16608) sdmmc_cmd: sdmmc_read_sectors_dma: sdmmc_send_cmd returned 0x109
+E (16609) diskio_sdmmc: sdmmc_read_blocks failed (265)
+E (16609) sdmmc_cmd: sdmmc_read_sectors_dma: sdmmc_send_cmd returned 0x109
+E (16615) diskio_sdmmc: sdmmc_read_blocks failed (265)
+E (16621) sdmmc_cmd: sdmmc_read_sectors_dma: sdmmc_send_cmd returned 0x109
+E (16627) diskio_sdmmc: sdmmc_read_blocks failed (265)
+E (16632) sdmmc_cmd: sdmmc_read_sectors_dma: sdmmc_send_cmd returned 0x109
+E (16638) diskio_sdmmc: sdmmc_read_blocks failed (265)
+[ 16659][E][vfs_api.cpp:332] VFSFileImpl(): fopen(/sdcard/accident_2_post_8.jpg) failed
+Failed to open file: /accident_2_post_8.jpg
+E (17663) sdmmc_cmd: sdmmc_read_sectors_dma: sdmmc_send_cmd returned 0x109
+E (17664) diskio_sdmmc: sdmmc_read_blocks failed (265)
+E (17664) sdmmc_cmd: sdmmc_read_sectors_dma: sdmmc_send_cmd returned 0x109
+E (17670) diskio_sdmmc: sdmmc_read_blocks failed (265)
+E (17676) sdmmc_cmd: sdmmc_read_sectors_dma: sdmmc_send_cmd returned 0x109
+E (17682) diskio_sdmmc: sdmmc_read_blocks failed (265)
+E (17687) sdmmc_cmd: sdmmc_read_sectors_dma: sdmmc_send_cmd returned 0x109
+E (17693) diskio_sdmmc: sdmmc_read_blocks failed (265)
+[ 17714][E][vfs_api.cpp:332] VFSFileImpl(): fopen(/sdcard/accident_2_post_9.jpg) failed
+Failed to open file: /accident_2_post_9.jpg
+E (18718) sdmmc_cmd: sdmmc_read_sectors_dma: sdmmc_send_cmd returned 0x109
+E (18719) diskio_sdmmc: sdmmc_read_blocks failed (265)
+E (18719) sdmmc_cmd: sdmmc_read_sectors_dma: sdmmc_send_cmd returned 0x109
+E (18725) diskio_sdmmc: sdmmc_read_blocks failed (265)
+E (18731) sdmmc_cmd: sdmmc_read_sectors_dma: sdmmc_send_cmd returned 0x109
+E (18737) diskio_sdmmc: sdmmc_read_blocks failed (265)
+E (18742) sdmmc_cmd: sdmmc_read_sectors_dma: sdmmc_send_cmd returned 0x109
+E (18748) diskio_sdmmc: sdmmc_read_blocks failed (265)
+[ 18769][E][vfs_api.cpp:332] VFSFileImpl(): fopen(/sdcard/accident_2_post_10.jpg) failed
+Failed to open file: /accident_2_post_10.jpg
+E (19773) sdmmc_cmd: sdmmc_read_sectors_dma: sdmmc_send_cmd returned 0x109
+E (19774) diskio_sdmmc: sdmmc_read_blocks failed (265)
+E (19774) sdmmc_cmd: sdmmc_read_sectors_dma: sdmmc_send_cmd returned 0x109
+E (19780) diskio_sdmmc: sdmmc_read_blocks failed (265)
+E (19786) sdmmc_cmd: sdmmc_read_sectors_dma: sdmmc_send_cmd returned 0x109
+E (19792) diskio_sdmmc: sdmmc_read_blocks failed (265)
+E (19797) sdmmc_cmd: sdmmc_read_sectors_dma: sdmmc_send_cmd returned 0x109
+E (19803) diskio_sdmmc: sdmmc_read_blocks failed (265)
+[ 19824][E][vfs_api.cpp:332] VFSFileImpl(): fopen(/sdcard/accident_2_post_11.jpg) failed
+Failed to open file: /accident_2_post_11.jpg
+E (20828) sdmmc_cmd: sdmmc_read_sectors_dma: sdmmc_send_cmd returned 0x109
+E (20829) diskio_sdmmc: sdmmc_read_blocks failed (265)
+E (20829) sdmmc_cmd: sdmmc_read_sectors_dma: sdmmc_send_cmd returned 0x109
+E (20835) diskio_sdmmc: sdmmc_read_blocks failed (265)
+E (20841) sdmmc_cmd: sdmmc_read_sectors_dma: sdmmc_send_cmd returned 0x109
+E (20847) diskio_sdmmc: sdmmc_read_blocks failed (265)
+E (20852) sdmmc_cmd: sdmmc_read_sectors_dma: sdmmc_send_cmd returned 0x109
+E (20858) diskio_sdmmc: sdmmc_read_blocks failed (265)
+[ 20879][E][vfs_api.cpp:332] VFSFileImpl(): fopen(/sdcard/accident_2_post_12.jpg) failed
+Failed to open file: /accident_2_post_12.jpg
+E (21883) sdmmc_cmd: sdmmc_read_sectors_dma: sdmmc_send_cmd returned 0x109
+E (21884) diskio_sdmmc: sdmmc_read_blocks failed (265)
+E (21884) sdmmc_cmd: sdmmc_read_sectors_dma: sdmmc_send_cmd returned 0x109
+E (21890) diskio_sdmmc: sdmmc_read_blocks failed (265)
+E (21896) sdmmc_cmd: sdmmc_read_sectors_dma: sdmmc_send_cmd returned 0x109
+E (21902) diskio_sdmmc: sdmmc_read_blocks failed (265)
+E (21907) sdmmc_cmd: sdmmc_read_sectors_dma: sdmmc_send_cmd returned 0x109
+E (21913) diskio_sdmmc: sdmmc_read_blocks failed (265)
+[ 21934][E][vfs_api.cpp:332] VFSFileImpl(): fopen(/sdcard/accident_2_post_13.jpg) failed
+Failed to open file: /accident_2_post_13.jpg
+E (22938) sdmmc_cmd: sdmmc_read_sectors_dma: sdmmc_send_cmd returned 0x109
+E (22939) diskio_sdmmc: sdmmc_read_blocks failed (265)
+E (22939) sdmmc_cmd: sdmmc_read_sectors_dma: sdmmc_send_cmd returned 0x109
+E (22945) diskio_sdmmc: sdmmc_read_blocks failed (265)
+E (22951) sdmmc_cmd: sdmmc_read_sectors_dma: sdmmc_send_cmd returned 0x109
+E (22957) diskio_sdmmc: sdmmc_read_blocks failed (265)
+E (22962) sdmmc_cmd: sdmmc_read_sectors_dma: sdmmc_send_cmd returned 0x109
+E (22968) diskio_sdmmc: sdmmc_read_blocks failed (265)
+[ 22989][E][vfs_api.cpp:332] VFSFileImpl(): fopen(/sdcard/accident_2_post_14.jpg) failed
+Failed to open file: /accident_2_post_14.jpg
+Saved: /accident_2_post_15.jpg
+Saved: /accident_2_post_16.jpg
+Saved: /accident_2_post_17.jpg
+Saved: /accident_2_post_18.jpg
+Saved: /accident_2_post_19.jpg
+Accident event saved.
+
+
+
+
+
+
 20 images before and after
  *  Executing task: platformio device monitor 
 
